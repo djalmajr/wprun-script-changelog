@@ -1,0 +1,23 @@
+{
+  "name": "wprun-script-changelog",
+  "version": "0.1.0",
+  "description": "Changelog scripts for wprun",
+  "author": "Djalma Jr. <djalmajr@gmail.com>",
+  "license": "UNLICENSED",
+  "contributors": [],
+  "homepage": "https://github.com/djalmajr/wprun-script-changelog/tree/master#readme",
+  "bugs": {
+    "url": "https://github.com/djalmajr/wprun-script-changelog/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:djalmajr/wprun-script-changelog.git"
+  },
+  "bin": {
+    "run-changelog": "bin/changelog.sh",
+    "run-changelog-version": "bin/version.sh"
+  },
+  "dependencies": {
+    "conventional-changelog-cli": "^2.0.11"
+  }
+}
